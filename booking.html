@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Travel | Booking</title>
+    <!--Font import-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
+    <!-- Stylesheet-->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/stylebooking.css">
+    <!-- Icon -->
+    <link rel="icon" href="./resources/ico/LOGO.ico">
+  </head>
+  <body>
+    <!------- Header / Navigation ------->
+    <header>
+      <nav class="top-nav">
+        <div id="logo-container" class="">
+          <a href="index.html">
+            <img id="nav-logo" src=".\resources\svg\LOGO.svg" alt="">
+          </a>
+        </div>
+        <a id="book-button" href="index.html">
+          <h1 id="button-text">Back</h1>
+        </a>
+      </nav>
+    </header>
+    <!------- Main ------->
+    <main>
+      <div class="content-wrapper">
+        <!------ Content Header ----->
+        <div id="booking-header"class="header-content-background">
+          <div id="booking-filter" class="filter">
+            <div class="header-content">
+              <h1 id="header-text">Your next adventure awaits</h1>
+            </div>
+          </div>
+        </div>
+        <!----- ^End Content Header ----->
+        <!----- Main Content ----->
+        <div class="main-content">
+          <h1>Choose your destination</h1>
+          <div class="divider">
+            <!--A lightblue divider-->
+          </div>
+          <p>Enter your information below and choose <br> your destination</p>
+          <div class="booking-form">
+            <form class="booking-form">
+                <div class="text-field text-form">
+                  <div id="search">
+                    <span>Name:</span>
+                    <br>
+                    <input type="text" name="name" placeholder="Full name">
+                  </div>
+                </div>
+                <div class="text-field text-form">
+                  <div id="search">
+                    <span>E-mail:</span>
+                    <br>
+                    <input type="text" name="email" placeholder="E-mail">
+                  </div>
+                </div>
+              <select id="destination"class="text-field text-form" name="city" placeholder="Your Destination">
+                <option value="null">--Destination--</option>
+                <option value="barcelona">Barcelona</option>
+                <option value="london">London</option>
+                <option value="tokyo">Tokyo</option>
+              </select>
+              <!---Checkboxes--->
+              <div class="check-container">
+                <!--One way checkbox-->
+                <div class="flex-container-check">
+                  <label class="checkbox">
+                    <input type="checkbox" name="one-way" value="">
+                    <span class="checkmark form-checkbox"></span>
+                  </label>
+                  <span class="check-text">One Way Ticket</span>
+                </div>
+                <!--Terms checkbox-->
+                <div class="flex-container-check">
+                  <label class="checkbox">
+                    <input type="checkbox" name="one-way" value="">
+                    <span class="checkmark form-checkbox"></span>
+                  </label>
+                  <span class="check-text" style="display: ;">I agree to agree to the: <a href="#"> terms of service</a></span>
+                </div>
+              </div>
+              <!--- ^End Checkboxes--->
+              <input id="submit-form" class="continue-button" type="submit" value="Order">
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="shadow-block">
+      <!--Creates a dividing shadow-->
+    </div>
+    <!----- ^End Main ----->
+    <!----- Footer (Link list / Contact / Subscribe) ----->
+    <footer>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Legal Disclaimer</a></li>
+        <li><a href="#">Cities</a></li>
+        <li><a href="#">Countries</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <div class="footer-content-container">
+        <div class="contact">
+          <h2 class="footer-title">Contact Phone Numbers</h2>
+          <div class="contact-option">
+            <h2>Customer Services:</h2>
+            <h2 class="phonenumber">02035143971</h2>
+            <p>0 - 24h everyday. Customised service 9 - 21h. Local call Spanish time</p>
+          </div>
+          <div class="contact-option">
+            <h2>Ticket sales:</h2>
+            <h2 class="phonenumber">+4409050781000</h2>
+            <p>0 - 24h everyday. Customised service 9 - 21h. Local call Spanish time</p>
+          </div>
+        </div>
+        <div class="subscribe">
+          <h2 class="footer-title">Subscribe to our newsletter</h2>
+          <div class="subscribe-container">
+            <div id="subscribe-input"class="text-field">
+              <input type="text" name="" placeholder="Your e-mail address">
+            </div>
+            <a href="booking.html" id="subscribe-button" class="continue-button"><h1>Subscribe</h1></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!----- ^End Footer ----->
+  </body>
+</html>

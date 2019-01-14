@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Travel | Home</title>
+    <!--Font import-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
+    <!-- Stylesheet-->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Icon -->
+    <link rel="icon" href="./resources/ico/LOGO.ico">
+  </head>
+  <body>
+    <!------- Header / Navigation ------->
+    <header>
+      <nav class="top-nav">
+        <div id="logo-container" class="">
+          <a href="index.html">
+            <img id="nav-logo" src=".\resources\svg\LOGO.svg" alt="">
+          </a>
+        </div>
+        <a id="book-button" href="booking.html">
+          <h1 id="button-text">Book now</h1>
+        </a>
+      </nav>
+    </header>
+    <!------- Main ------->
+    <main>
+      <div class="content-wrapper">
+        <!------ Content Header ----->
+        <div class="header-content-background">
+          <div class="filter">
+            <div class="header-content">
+              <h1 id="header-text">Let's make your next stop:</h1>
+              <!-- Form-->
+              <form class="" action="" method="post">
+                <div class="flex-container-search">
+                  <div class="text-field">
+                    <div id="search">
+                      <span>To:</span>
+                      <br>
+                      <input type="text" name="" placeholder="Barcelona - Spain">
+                    </div>
+                    <img src="./resources/svg/Calendar.svg" alt="">
+                  </div>
+                  <a href="booking.html" class="continue-button">
+                    <h1>Continue<h1>
+                  </a>
+                </div>
+                <br>
+                <div class="flex-container-check">
+                  <label class="checkbox">
+                    <input type="checkbox" name="one-way" value="">
+                    <span class="checkmark"></span>
+                  </label>
+                  <span id="one-way">One Way Ticket</span>
+                </div>
+              </form>
+              <!-- ^End Form-->
+            </div>
+          </div>
+        </div>
+        <!----- ^End Content Header ----->
+        <!----- Main Content ----->
+        <div class="main-content">
+          <h1>Where do you want to go?</h1>
+          <div class="divider">
+            <!--A lightblue divider-->
+          </div>
+          <p>We recommend you the next destination with <br>a sweet discounted price</p>
+          <div class="recommendations">
+              <div class="image-container">
+                <img src="./resources/images/img1Barcelona.png" alt="">
+              </div>
+              <div class="image-container">
+                <img src="./resources/images/img2London.png" alt="">
+              </div>
+              <div class="image-container">
+                <img src="./resources/images/img3Tokyo.png" alt="">
+              </div>
+
+          </div>
+          <a href="booking.html" class="continue-button" id="book-now"><h1>Book now!</h1></a>
+          <!----- Trust us ----->
+          <div class="trust-us">
+            <div class="trust-content">
+              <h1>Trust us</h1>
+              <div class="flex-container-trust">
+                <div class="flex-element">
+                  <img src="./resources/svg/worldwide.svg" alt="">
+                  <p>+ 87 Countries</p>
+                </div>
+                <div class="flex-element">
+                  <img src="./resources/svg/airport.svg" alt="">
+                  <!--Quick fix on p, unbalanced text caused by differnt img sizes-->
+                  <p style="">+ 65 Airports</p>
+                </div>
+                <div class="flex-element">
+                  <img src="./resources/svg/aeroplane.svg" alt="">
+                  <p>+ 200 Daily flights</p>
+                </div>
+                <div class="flex-element">
+                  <img src="./resources/svg/Shape.svg" alt="">
+                  <p>+ 2000 Professionals</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!----- ^End Trust us ----->
+        </div>
+      </div>
+    </main>
+    <!----- ^End Main ----->
+    <!----- Footer (Link list / Contact / Subscribe) ----->
+    <footer>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Legal Disclaimer</a></li>
+        <li><a href="#">Cities</a></li>
+        <li><a href="#">Countries</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <div class="footer-content-container">
+        <div class="contact">
+          <h2 class="footer-title">Contact Phone Numbers</h2>
+          <div class="contact-option">
+            <h2>Customer Services:</h2>
+            <h2 class="phonenumber">02035143971</h2>
+            <p>0 - 24h everyday. Customised service 9 - 21h. Local call Spanish time</p>
+          </div>
+          <div class="contact-option">
+            <h2>Ticket sales:</h2>
+            <h2 class="phonenumber">+4409050781000</h2>
+            <p>0 - 24h everyday. Customised service 9 - 21h. Local call Spanish time</p>
+          </div>
+        </div>
+        <div class="subscribe">
+          <h2 class="footer-title">Subscribe to our newsletter</h2>
+          <div class="subscribe-container">
+            <div id="subscribe-input"class="text-field">
+              <input type="text" name="" placeholder="Your e-mail address">
+            </div>
+            <a href="booking.html" id="subscribe-button" class="continue-button"><h1>Subscribe</h1></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!----- ^End Footer ----->
+  </body>
+</html>
