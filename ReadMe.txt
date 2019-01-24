@@ -1,2 +1,3 @@
+Arbeidsprøve gitt av Appex 
 
-Siden er gjenskapt som en webside etter et gitt design. 
+Jeg fikk utlevert et design, og designet skulle gjenskapes etter visse kriterier som en webside. 
